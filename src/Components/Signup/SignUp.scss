@@ -1,0 +1,59 @@
+$buttonColor: #337cdf;
+
+.container{
+    width: auto;
+    height: auto;
+    align-items: center;
+    margin: 15%;
+    
+    .login-box {
+      background: #f2f2f2;
+        width: 500px;
+        height: auto;
+        align-items: center;
+        border: 1px solid #ccc;
+        margin: 5% auto;
+        padding: 20px;
+        text-align: center;
+        border-radius: 7px;
+        box-shadow: 1px 1px 2px #ccc;
+      
+        .field-div {
+          // border: 1px solid #ccc;
+          padding: 10px;
+      
+          .input-label {
+            margin: 20px;
+            font-size: 20px;
+          }
+          input {
+            margin: 10px;
+            padding: 10px;
+            font-size: 15px;
+            font-family: 'Nunito', sans-serif;
+            
+            outline: none;
+            border-radius: 7x;
+            &focus {
+              border: none;
+              outline: #ccc;
+            }
+          }
+        }
+        .form-btn {
+            font-family: 'Nunito', sans-serif;
+          border: none;
+          outline: none;
+          background: $buttonColor;
+          color: white;
+          padding: 15px;
+          font-size: 15px;
+          border-radius: 5px;
+          cursor: pointer;
+          &:hover {
+            background: #1f65c7;
+          }
+        }
+      }
+      
+}
