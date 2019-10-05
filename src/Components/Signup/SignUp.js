@@ -43,7 +43,7 @@ export default function SignUp(props) {
       confirmPassword:''
     };
 
-    if(user.email == '' || user.name  == '' || user.number == ''){
+    if(user.email === '' || user.name  === '' || user.number === ''){
       setMessage("Fill in your details");
       setOpen(true);
       return
